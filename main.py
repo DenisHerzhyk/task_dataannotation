@@ -6,7 +6,7 @@ step = 2
 index = 0
 text = sorted(text, key=lambda x: int(x.split()[0]))
 
-for elem in text:
+for line in text:
     numbers.append(int(elem.split()[0]))
 
 for number in numbers:
